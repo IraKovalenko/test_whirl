@@ -43,9 +43,9 @@ xdescribe("getAverage function", function() {
 });
 xdescribe("sumArray function", function() {
   it("should return sum all the numbers of the array except the highest and the lowest element (the value, not the index!)", function() {
-    expect(getAverage([2,2,2,2])).toEqual(2);
-    expect(getAverage([1,2,3,4,5])).toEqual(3);
-    expect(getAverage([1,1,1,1,1,1,1,2])).toEqual(1);
+    expect(sumArray([1,2,3,4])).toEqual(5);
+    expect(sumArray([1,1,3,4,5])).toEqual(8);
+    expect(sumArray([1,2,3,4,5,5])).toEqual(14);
   });
 
 });
