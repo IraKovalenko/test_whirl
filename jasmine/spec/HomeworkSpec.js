@@ -13,7 +13,7 @@ describe("opposite function", function() {
 
 });
 
-xdescribe("arraySumPositive function", function() {
+describe("arraySumPositive function", function() {
 
   it("should return sum of positive numbers", function() {
     expect(arraySumPositive([1,0,5])).toEqual(6);
@@ -24,7 +24,7 @@ xdescribe("arraySumPositive function", function() {
   });
 
 });
-xdescribe("removeNumbers function", function() {
+describe("removeNumbers function", function() {
 
   it("should return string without numbers", function() {
     expect(removeNumbers("123456789")).toEqual("");
@@ -33,7 +33,7 @@ xdescribe("removeNumbers function", function() {
     expect(removeNumbers(" ")).toEqual(" ");
   });
 });
-xdescribe("getAverage function", function() {
+describe("getAverage function", function() {
   it("should return  the average of the given array rounded downward to its nearest integer", function() {
     expect(getAverage([2,2,2,2])).toEqual(2);
     expect(getAverage([1,2,3,4,5])).toEqual(3);
@@ -41,7 +41,7 @@ xdescribe("getAverage function", function() {
   });
 
 });
-xdescribe("sumArray function", function() {
+describe("sumArray function", function() {
   it("should return sum all the numbers of the array except the highest and the lowest element (the value, not the index!)", function() {
     expect(sumArray([1,2,3,4])).toEqual(5);
     expect(sumArray([1,1,3,4,5])).toEqual(8);
@@ -49,7 +49,7 @@ xdescribe("sumArray function", function() {
   });
 
 });
-xdescribe("findLongest function", function() {
+describe("findLongest function", function() {
 
   it("should return length of the longest word", function() {
     expect(findLongest("The quick white fox jumped around the massive dog")).toEqual(7);
